@@ -1,0 +1,104 @@
+.left{
+    display:inline-block;
+    /* border:2px solid red; */
+    position:absolute;
+    left:34px;
+    top:20px;
+}
+
+.left img{
+    width:90px;
+    height:90px;
+    
+}
+
+.left div{
+    text-align: center;
+}
+
+.center{
+    display:block;
+    width:43%;
+    margin:20px auto;
+    /* border: 2px solid rgb(72, 255, 0); */
+}
+
+.right{
+    position:absolute;
+    right:34px;
+    top:20px;
+    display:inline-block;
+    /* border:2px solid rgb(30, 0, 255); */
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display:inline-block;
+    font-size: 20px;
+   
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(216, 166, 225);
+        text-decoration: underline;
+    }
+
+.btn{
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 9px;
+    color:white;
+    background-color: black;
+    padding:4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor:pointer;
+    font-size: 20px;
+
+}
+
+.btn:hover{
+    background-color: grey;
+}
+
+.container{ 
+    border: 2px solid green;
+    padding: 75px;
+    margin: 106px 580px;
+    border-radius:28px;
+    width:33%;
+}
+
+.form-group{
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display:block;
+    width:300px;
+    font-size:20px;
+    margin: 11px auto;
+    padding:1px;
+    border-radius:8px;
+         
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    width: 74%;
+    margin:20px auto;
+    text-align:center;
+}

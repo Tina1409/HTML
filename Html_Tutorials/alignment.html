@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin: auto;
+            background-color: aliceblue;
+        }
+
+        .item{
+            border:3px solid grey;
+            margin:12px 3px;
+            padding: 12px 3px;
+            background:rgb(236, 236, 194);
+            
+        }
+
+        #fruits{
+            float:left;
+            width:48%;
+
+        }
+
+        #computer{
+            float:right;
+            width:48%;
+
+        }
+
+        #stationary{
+            clear:both;
+            /* float:left; */
+            width:100%;
+
+        }
+
+        h1,p,h3{
+            text-align:center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="container">
+        Welcome to my store
+    </h1>
+    <div class="container">
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi reprehenderit eaque ex quae voluptate labore facere quam debitis obcaecati iure molestias eum, optio odio, adipisci, aliquam molestiae. Facere, porro.</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>Computers</h3>
+            <p id="computerspara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, temporibus facilis sapiente excepturi iste aperiam quasi optio fugit, ipsam quod hic voluptate quae quisquam quo voluptas officia autem vitae sint.</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="staitonaryspara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, temporibus facilis sapiente excepturi iste aperiam quasi optio fugit, ipsam quod hic voluptate quae quisquam quo voluptas officia autem vitae sint.</p>
+        </div>
+
+        <div id="glasses" class="item">
+            <h3>Stationary</h3>
+            <p id="glassesspara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, temporibus facilis sapiente excepturi iste aperiam quasi optio fugit, ipsam quod hic voluptate quae quisquam quo voluptas officia autem vitae sint.</p>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
