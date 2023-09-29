@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container{
+            display:grid;
+            gap:2rem;
+            grid-template-areas: 
+            'navbar navbar navbar navbar'
+            'section section section aside';
+        }
+        .box{
+            background-color: aliceblue;
+            border:2px solid blueviolet;
+
+        }
+
+        #navbar{
+            grid-area: navbar;
+        }
+
+        #section{
+            grid-area: section;
+        }
+
+        #aside{
+            grid-area:aside;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar" class="box">Lorem ipsum dolor sit.</div>
+        <div id="section" class="box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, placeat.</div>
+        <div id="aside" class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus dignissimos dolorem explicabo eius harum.</div>
+        <!-- <div class="box">this is box1</div>
+        <div class="box">this is box2</div>
+        <div class="box">this is box3</div>
+        <div class="box">this is box4</div>
+        <div class="box">this is box5</div>
+        <div class="box">this is box6</div>
+        <div class="box">this is box7</div>
+        <div class="box">this is box8</div>
+        <div class="box">this is box9</div>
+        <div class="box">this is box10</div>
+        <div class="box">this is box11</div>
+        <div class="box">this is box12</div> -->
+    </div>
+</body>
+</html>
