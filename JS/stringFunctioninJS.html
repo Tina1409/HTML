@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Functions</title>
+    <script>
+        var string='this is a string';
+        console.log(string);
+        //first occurence of a substring
+        var position =string.indexOf('is');
+        console.log(position);
+
+        //last occurence of a substring
+        position =string.lastIndexOf('is');
+        console.log(position);
+
+        //substring from a string
+        var substr=string.slice(1,6);
+        console.log(substr);
+
+        substr=string.substring(1,7);
+        console.log(substr);
+
+        var replaced=string.replace('this is a string','tina');
+        console.log(string);
+        console.log(replaced);
+
+        console.log(string.toUpperCase());
+        console.log(string.toLowerCase());
+
+        var char3=string.charAt(2);
+        console.log(char3);
+        
+        string='  Hello         Future    ';
+        console.log(string.trim());
+
+        
+
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim eos, fugiat delectus velit quos quod veniam ullam nesciunt illo libero.</p>
+    </div>
+</body>
+</html>
