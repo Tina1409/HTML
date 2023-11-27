@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction using alert confirm and prompt</title>
+</head>
+<body>
+    <div class="container">This is a page</div>
+    <script>
+        //Alert in in-browser Javascript
+        alert("This is a message");
+        //alert value have no return value proof is below
+        let a= alert("This is a another message");
+        console.log(a); //will return undefined in console
+
+        let name= prompt("Whta is your name?","guest");
+        console.log(name);
+
+        let deletePost= confirm("Do you really want to delete?");
+
+        if(deletePost){
+            console.log("Post deleted successfully");
+        }
+        else{
+            console.log("Not deleted");
+        }
+        // console.log(deletePost);
+    </script>
+</body>
+</html>
